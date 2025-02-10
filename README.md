@@ -1,50 +1,12 @@
-# React + TypeScript + Vite
+# 📸 Renatozz - Portfólio Fotográfico
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[🔗 Acessar o site](https://renatozz.com.br/)
 
-Currently, two official plugins are available:
+Site desenvolvido para o fotógrafo **Renatozz**, com o objetivo de apresentar seu portfólio de forma elegante e funcional. O design foi pensado para destacar as fotografias, proporcionando uma experiência visual agradável aos visitantes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React** para construção da interface do usuário.
+- **Styled Components** para estilização dos componentes.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+O site é totalmente responsivo, garantindo uma navegação otimizada em diversos dispositivos e tamanhos de tela.
