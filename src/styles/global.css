@@ -1,0 +1,46 @@
+:root {
+  --display-font: "Bakbak One", sans-serif;
+  --primary-font: "Alata", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+
+  --white: #ffffff;
+  --gray-50: #fafafa;
+  --gray-100: #ebe9ec;
+  --gray-150: #dfdce2;
+  --gray-200: #cec8d2;
+  --gray-600: #5e5862;
+  --gray-850: #18171b;
+  --gray-900: #111012;
+
+  --purple-100: #d885ff;
+  --purple-200: #AB51D4;
+  --purple-300: #7419bc;
+  --purple-300-transparent: rgba(116, 25, 188, 0.15);
+  --purple-600: #2e0066;
+  --purple-600-transparent: rgba(46, 0, 102, 0.15);
+  --blue-100: #8585ff;
+  --blue-700: #000054;
+}
+
+body {
+  font-family: var(--secondary-font);
+}
+
+main {
+  background: var(--gray-900);
+  overflow: hidden;
+}
+
+.container {
+  padding: 3rem 2rem;
+
+  @media (min-width: 768px) {
+    padding: 4.5rem 3rem;
+  }
+}
+
+.purple-text {
+  color: var(--purple-300);
+  font-weight: 400;
+  font-family: var(--display-font);
+}

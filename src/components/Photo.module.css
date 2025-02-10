@@ -1,0 +1,14 @@
+.photoContainer {
+  border-radius: 0.75rem;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.photoImage {
+  height: calc(100% + 1px);
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  min-height: 24rem;
+}

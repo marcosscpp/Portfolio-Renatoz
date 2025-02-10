@@ -1,0 +1,90 @@
+.thankYouSection {
+  text-align: center;
+  padding: 6rem 3rem;
+}
+
+.contactList {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem 3rem;
+}
+
+.contactItem {
+  align-items: center;
+  color: var(--gray-50);
+  gap: 0.75rem;
+  display: flex;
+  font-size: 1.75rem;
+  font-weight: 200;
+  svg {
+    font-size: inherit !important;
+  }
+
+  @media (max-width: 340px) {
+    flex-direction: column;
+  }
+}
+
+.icon {
+  align-items: center;
+  background-color: var(--gray-200);
+  border-radius: 50%;
+  color: var(--gray-900);
+  display: flex;
+  padding: 0.5rem;
+  font-size: 2rem;
+  justify-content: center;
+}
+
+.thankYouTitle {
+  color: var(--gray-50);
+  font-family: var(--display-font);
+  font-size: 13rem;
+  line-height: 0.8;
+  margin-top: 7rem;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.thankYouImage {
+  max-width: none;
+  position: absolute;
+  width: 8rem;
+  top: -1rem;
+  left: 0.5rem;
+}
+
+.thankYouMessage {
+  color: var(--gray-50);
+  font-size: 1.75rem;
+  text-wrap: balance;
+
+  @media (min-width: 769px) {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+@media (max-width: 769px) {
+  .thankYouSection {
+    padding: 6rem 2rem;
+
+    span:last-child {
+      display: block;
+    }
+  }
+
+  .thankYouTitle {
+    font-size: 8rem;
+  }
+
+  .thankYouImage {
+    left: -0.5rem;
+    top: -2.5rem;
+  }
+}
